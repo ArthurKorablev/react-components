@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+    color: black;
+}
+
+.Main{
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+        "h h h h h"
+        "s m m m m"
+        "s m m m m"
+    ;
+}
